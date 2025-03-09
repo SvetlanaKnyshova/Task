@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Фреймворки - PatternFly</title>
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/patternfly/4.0.0-rc.1/css/patternfly.min.css">
+    <!-- <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/patternfly/3.24.0/css/patternfly-additions.min.css"> -->
+    <link rel="stylesheet" href="assets/css/style.css">
+
+</head>
+<body>
+    
+    <div class="container-fluid">
+        <div class="row">
+            <nav class="navbar navbar-default navbar-inverse" role="navigation">
+                <div class="container">
+                    <div class="navbar-header header">
+                        <div class="container">
+                            <div class="row">
+                              <div class="col-lg-12">
+                                <h1><a class="navbar-brand fa-lg" href="index.html">CSS Фреймворки</a></h1>
+                                <!-- <p>кратко..</p> -->
+                              </div>
+                            </div>
+                          </div>
+                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbarCollapse">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        </button>
+                    </div>
+                    <div id="navbarCollapse" class="collapse navbar-collapse navbar-right">
+                        <ul class="nav navbar-nav navbar-primary">
+                        <li class="active">
+                            <a href="index.html">Главная</a>
+                        </li>
+                        <li>
+                            <a href="patternfly.html">PatternFly</a>
+                        </li>
+                        <li class="dropdown">
+                            <a href="#other-frameworks" class="dropdown-toggle" data-toggle="dropdown"> Другие фреймворки <b class="caret"></b></a>
+                            <ul class="dropdown-menu">
+                                <li>
+                                    <a href="foundation.html">Foundation</a>
+                                </li>
+                                <li>
+                                    <a href="bulma.html">Bulma</a>
+                                </li>
+                                <li>
+                                    <a href="bootstrap.html">Bootstrap</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="contact.html">О нас</a>
+                        </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </div>
+    
+    <!-- -->
+    <div class="wrapper">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-9 col-lg-push-3">
+  
+              <h2>Что такое фреймворки CSS?</h2>
+              <hr>
+              <div class="well">
+                CSS-фреймворки представляют собой набор предварительно написанных и готовых к использованию таблиц стилей CSS. Вместо того, чтобы создавать стили CSS с нуля, фреймворки CSS позволяют разработчикам быстро создавать пользовательские интерфейсы и создавать веб-сайты, предоставляя основу для стилей и структур макетов, с которыми они могут работать.
+                Фреймворки CSS содержат стили для предварительно разработанных компонентов пользовательского интерфейса, адаптивных систем сеток и таких элементов, как кнопки и формы. Иногда они также содержат код JavaScript для интерактивных веб-компонентов, таких как адаптивная навигация с меню-гамбургерами, вкладками и гармошками.
+                Если вы создаете новый сайт, CSS-фреймворки — отличный инструмент, потому что они могут повысить вашу производительность и стать прочной основой для создания дизайн-систем и руководств по стилю. Они также помогают создавать согласованные пользовательские интерфейсы и веб-сайты и являются отличным выбором для больших и малых команд и проектов.   
+              </div>
+  
+              <div class="margin-5"></div>
+  
+              <h2>Для чего нужны CSS фреймворки?</h2>
+              <hr>
+                <p>
+                    CSS-фреймворки служат инструментами, предназначенными для упрощения и ускорения процесса веб-разработки. Они предоставляют набор готовых стилей, компонентов и макетов, которые разработчики могут использовать в своих проектах. Вот несколько основных причин, по которым CSS-фреймворки могут быть полезны:
+                </p>
+                <ul>
+                    <li>
+                    <strong>Ускорение разработки.</strong> CSS-фреймворки предлагают готовые компоненты, такие как кнопки, формы, таблицы и другие элементы интерфейса. Разработчики могут использовать эти компоненты в своих проектах без необходимости писать стили с нуля. Это позволяет существенно сократить время, затрачиваемое на разработку интерфейса.
+                    </li>
+                    <li>
+                    <strong>Кроссбраузерность.</strong> Фреймворки тщательно протестированы и обеспечивают совместимость с различными веб-браузерами. Это позволяет создавать веб-сайты и приложения, которые выглядят и работают одинаково хорошо на различных браузерах.
+                    </li>
+                    <li>
+                    <strong>Отзывчивый дизайн (адаптивность).</strong> Многие CSS-фреймворки предоставляют сетки и компоненты, которые легко адаптируются под разные устройства и размеры экранов. Это особенно важно в мире мобильных устройств, так как позволяет создавать мобильно-дружелюбные интерфейсы.
+                    </li>
+                    <li>
+                    <strong>Единообразие дизайна.</strong> Фреймворки предлагают стандартизированные компоненты и стили, что способствует созданию веб-сайтов с единообразным и профессиональным дизайном. Это особенно важно для корпоративных веб-сайтов и приложений.
+                    </li>
+                    <li>
+                    <strong>Удобство тестирования и обслуживания.</strong> Использование фреймворков упрощает тестирование и обслуживание веб-сайтов, так как разработчики могут полагаться на проверенные и оптимизированные компоненты.
+                    </li>
+                    <li>
+                    <strong>Обучение и обмен опытом.</strong> Многие фреймворки имеют активные сообщества и обширную документацию. Разработчики могут использовать ресурсы фреймворка для обучения, задавать вопросы и делиться опытом с другими членами сообщества.
+                    </li>
+                </ul>
+                <p>
+                    В целом, CSS-фреймворки предоставляют эффективные инструменты для улучшения производительности и качества веб-разработки, делая процесс создания стильных и функциональных веб-сайтов более простым и эффективным.
+                </p>
+                <div class="margin-5"></div>
+                <nav aria-label="Пагинация">
+                    <ul class="pagination">
+                        <!-- <li class="page-item">
+                            <a class="page-link" href="#" aria-label="Предыдущая">
+                                <span aria-hidden="true">&laquo;</span>
+                            </a>
+                        </li> -->
+                        <li class="page-item active" aria-current="page">
+                            <a class="page-link" href="index.html">1</a>
+                        </li>
+                        <li class="page-item">
+                            <a class="page-link" href="patternfly.html">2</a>
+                        </li>
+                        <li class="page-item">
+                            <a class="page-link" href="foundation.html">3</a>
+                        </li>
+                        <li class="page-item">
+                            <a class="page-link" href="bulma.html">4</a>
+                        </li>
+                        <li class="page-item">
+                            <a class="page-link" href="bootstrap.html">5</a>
+                        </li>
+                        <li class="page-item">
+                            <a class="page-link" href="contact.html">6</a>
+                        </li>
+                        <li class="page-item">
+                            <a class="page-link" href="patternfly.html" aria-label="Следующая">
+                                <span aria-hidden="true">&raquo;</span>
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+
+            <div class="col-lg-3 col-lg-pull-9">           
+                <div class="panel panel-info">
+                    <div class="panel-heading">
+                        <div class="sidebar-header">Новости</div>
+                    </div>
+                    <div class="panel-body">
+                        <p>31.02.2025</p>
+                        <p>Мы все же что-то сделали</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col-lg-3 col-lg-pull-9">           
+                <div class="panel panel-info">
+                    <div class="panel-heading">
+                        <div class="sidebar-header">Ссылки на информацию о CSS</div>
+                    </div>
+                    <div class="panel-body">
+                        <ul class="list-group">
+                            <li class="list-group-item">
+                                <a href="https://translated.turbopages.org/proxy_u/en-ru.ru.27338461-67bf49f0-9d06eaba-74722d776562/https/www.geeksforgeeks.org/what-is-a-css-framework/">What is a CSS framework?</a>
+                            </li>
+                            <li class="list-group-item">
+                                <a href="https://ru.wikipedia.org/wiki/CSS-%D1%84%D1%80%D0%B5%D0%B9%D0%BC%D0%B2%D0%BE%D1%80%D0%BA">CSS-фреймворк (Википедия)</a>
+                            </li>
+                            <li class="list-group-item">
+                                <a href="https://it.vstu.by/courses/economics_of_electronic_business/web_technologies_and_programming/theory/CSS_frameworks/">CSS фреймворки</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+          </div>
+        </div>
+        <div class="clear"></div>
+      </div>
+    
+    <footer class="bd-footer text-muted">
+        <nav class="navbar navbar-default navbar-inverse " role="contentinfo">
+            <div class="container h6">
+                <p class="text-center">Спроектировано и построено со всей любовью в мире </p>
+                <button class="pf-c-button pf-m-primary back-to-top" id="backToTop">
+                    Вверх
+                </button>
+            </div>
+        </nav>
+    </footer>
+
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/patternfly/4.0.0/patternfly.min.js"></script>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
+   <script>
+        // Показать/скрыть кнопку "Вверх"
+        $(window).scroll(function() {
+            if ($(this).scrollTop() > 100) {
+                $('#backToTop').fadeIn();
+            } else {
+                $('#backToTop').fadeOut();
+            }
+        });
+        // Прокрутка вверх при нажатии на кнопку
+        $('#backToTop').click(function() {
+            $('html, body').animate({scrollTop: 0}, 800);
+            return false;
+        });
+    </script>
+</body>
+</html>
+

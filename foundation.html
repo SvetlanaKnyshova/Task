@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Фреймворки - PatternFly</title>
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/patternfly/4.0.0-rc.1/css/patternfly.min.css">
+    <!-- <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/patternfly/3.24.0/css/patternfly-additions.min.css"> -->
+    <link rel="stylesheet" href="assets/css/style.css">
+
+</head>
+<body class="cards-pf">
+    
+    <div class="container-fluid">
+        <div class="row">
+            <nav class="navbar navbar-default navbar-inverse" role="navigation">
+                <div class="container">
+                    <div class="navbar-header header">
+                        <div class="container">
+                            <div class="row">
+                              <div class="col-lg-12">
+                                <h1><a class="navbar-brand fa-lg"  href="index.html">CSS Фреймворки</a></h1>
+                                <!-- <p>кратко..</p> -->
+                              </div>
+                            </div>
+                          </div>
+                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbarCollapse">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        </button>
+                    </div>
+                    <div id="navbarCollapse" class="collapse navbar-collapse navbar-right">
+                        <ul class="nav navbar-nav navbar-primary">
+                        <li>
+                            <a href="index.html">Главная</a>
+                        </li>
+                        <li>
+                            <a href="patternfly.html">PatternFly</a>
+                        </li>
+                        <li class="dropdown active">
+                            <a href="#other-frameworks" class="dropdown-toggle" data-toggle="dropdown"> Другие фреймворки <b class="caret"></b></a>
+                            <ul class="dropdown-menu">
+                                <li class = "active">
+                                    <a href="foundation.html">Foundation</a>
+                                </li>
+                                <li>
+                                    <a href="bulma.html">Bulma</a>
+                                </li>
+                                <li>
+                                    <a href="bootstrap.html">Bootstrap</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="contact.html">О нас</a>
+                        </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </div>
+    
+    <!-- -->
+    <div class="wrapper">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-9 col-lg-push-3">
+                        <div class="row row-cards-pf">
+                            <div class="col-md-3 col-sm-6">
+                                <div class="flex-container">
+                                    <div class="flex-container-img">
+                                        <img src="assets/img/kisspng.png" alt="Foundation Logo" class="img-responsive">
+                                    </div>
+                                    <h1>Foundation</h1>
+                                </div>
+                            </div>
+                            <div class="w-100"></div> <!-- Для переноса строки -->
+                        </div>
+                        <hr>
+                        <p>
+                            Foundation — это бесплатный адаптивный фронтенд-фреймворк, предоставляющий адаптивную сетку и HTML- и CSS- UI-компоненты, шаблоны и фрагменты кода, включая типографику, формы, кнопки, навигацию и другие элементы интерфейса, а также дополнительные функции, предоставляемые расширениями JavaScript. Foundation — это проект с открытым исходным кодом, ранее поддерживаемый ZURB. С 2019 года Foundation поддерживается добровольцами.
+                        </p>
+                        <a href="https://get.foundation/" class="btn btn-info pull-right">Подробнее</a>
+                        <div class="margin-10"></div>
+                        <h2>Плюсы фреймворка Foundation</h2>
+                        <hr>
+                        <p>Foundation обладает некоторыми необычными характеристиками из всех CSS-фреймворков, которые мы рассмотрим в этой статье:</p>
+                        <ul>
+                            <li><strong>Полный инструментарий:</strong> Технически неправильно говорить, что Foundation – это CSS-фреймворк. То есть, это так, но он был создан как большая и модульная коллекция инструментов, направленная на решение практически всех видов проблем front-end. Существуют отдельные предложения фреймворка для веб-сайтов и электронной почты, в значительной степени оптимизированные для соответствующих доменов. Foundation также поставляется с интерфейсом командной строки (CLI), что покажется музыкой для разработчиков, привыкших работать с Webpack или другими модульными бандлерами.</li>
+                            <li><strong>Чрезвычайная гибкость:</strong> В отличие от Bootstrap, Foundation был создан для того, чтобы дать разработчикам фронтенда полный контроль над их пользовательскими интерфейсами. В результате Foundation покажется новичку безвкусным и чрезвычайно сложным. Однако причина в том, что Foundation не навязывает вам какой-либо язык стилей, а стремится быть именно тем, чем он является: превосходным CSS-фреймворком.</li>
+                            <li><strong>Больше, чем просто компоненты пользовательского интерфейса:</strong> Хотя Foundation имеет обычную коллекцию элементов пользовательского интерфейса, он выходит далеко за рамки своих возможностей. Разработчики включили в него продвинутую отзывчивую систему изображений, компонент таблицы цен (да, тот самый, который используется для отображения различных тарифных планов), валидацию форм, поддержку ориентации справа налево, отзывчивые вставки и многое другое. Я хотел бы еще раз подчеркнуть, что это излишество для большинства простых сайтов, но для крупных сайтов это преимущество, которое признают опытные разработчики.</li>
+                            <li><strong>Обучение и консалтинг:</strong> Хотя Bootstrap создан компанией Twitter, это побочный проект и очень маленькая часть общей картины. Однако компания, стоящая за Foundation (ZURB), стремится использовать, развивать и продвигать его. Для крупных клиентов предлагаются учебные курсы и профессиональные консультации, что отлично подходит для компаний, которые нацелены на масштабные проекты и готовы платить.</li>
+                        </ul>
+                        <div class="margin-5"></div>
+                        <h2>Минусы фреймворка Foundation</h2>
+                        <hr>
+                        <p>Сильные стороны одного фреймворка становятся его слабыми сторонами при взгляде с противоположной точки зрения. Вот почему Foundation может быть не лучшим выбором для вашего проекта:</p>
+                        <ul>
+                            <li><strong>Маленькое(е) сообщество:</strong> Сообщество Foundation намного меньше, чем сообщество Bootstrap, и если вы пробуете что-то экзотическое и застряли, шансы найти необходимую помощь ниже. Тем не менее, я бы добавил, что для всех практических целей сообщества достаточно. Просто оно на несколько порядков меньше, чем у Bootstrap, поэтому вы не сможете найти решение мгновенно.</li>
+                            <li><strong>Сложность:</strong> Если вы привыкли к Bootstrap или чему-то простому, или, что еще хуже, к ванильному CSS, Foundation покажется вам бесконечным взрывом сложности. Слои в слоях, компоненты с компонентами, бесконечные возможности настройки. . . Очень скоро вы начнете сомневаться в целесообразности самой жизни! Но, опять же, у Foundation совсем другая цель, и его нельзя за это винить.</li>
+                            <li><strong>Слишком много опций: </strong> Иногда вы просто хотите сделать что-то, а о совершенстве побеспокоиться позже. В такие моменты расстраивает, когда вам предлагают слишком много вариантов с незначительными вариациями. Например, подумайте о необходимости заказать сэндвич из Subway, когда вы так голодны, что могли бы съесть грязь. Естественно, Foundation не для таких случаев.</li>
+                            <li><strong>Доступность талантов:</strong> Поскольку Foundation (гораздо) менее популярен, чем Bootstrap, доступных талантов гораздо меньше. Как правило, любой новый сотрудник, скорее всего, будет знать Bootstrap, но не будет иметь представления о Foundation. Обучение требует времени, а это роскошь, которую не все команды могут себе позволить.</li>
+                        </ul>
+                        <div class="margin-5"></div>
+                        <nav aria-label="Пагинация">
+                            <ul class="pagination">
+                                <li class="page-item">
+                                    <a class="page-link" href="patternfly.html" aria-label="Предыдущая">
+                                        <span aria-hidden="true">&laquo;</span>
+                                    </a>
+                                </li>
+                                <li class="page-item" aria-current="page">
+                                    <a class="page-link" href="index.html">1</a>
+                                </li>
+                                <li class="page-item">
+                                    <a class="page-link" href="patternfly.html">2</a>
+                                </li>
+                                <li class="page-item active">
+                                    <a class="page-link" href="foundation.html">3</a>
+                                </li>
+                                <li class="page-item">
+                                    <a class="page-link" href="bulma.html">4</a>
+                                </li>
+                                <li class="page-item">
+                                    <a class="page-link" href="bootstrap.html">5</a>
+                                </li>
+                                <li class="page-item">
+                                    <a class="page-link" href="contact.html">6</a>
+                                </li>
+                                <li class="page-item">
+                                    <a class="page-link" href="bulma.html" aria-label="Следующая">
+                                        <span aria-hidden="true">&raquo;</span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </nav>
+                </div>
+                
+                <div class="col-lg-3 col-lg-pull-9">           
+                    <div class="panel panel-info">
+                        <div class="panel-heading">
+                            <div class="sidebar-header">Новости</div>
+                        </div>
+                        <div class="panel-body">
+                            <p>31.02.2025</p>
+                            <p>Мы все же что-то сделали</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-lg-3 col-lg-pull-9">           
+                    <div class="panel panel-info">
+                        <div class="panel-heading">
+                            <div class="sidebar-header">Ссылки на информацию о CSS</div>
+                        </div>
+                        <div class="panel-body">
+                            <ul class="list-group">
+                                <li class="list-group-item">
+                                    <a href="https://translated.turbopages.org/proxy_u/en-ru.ru.27338461-67bf49f0-9d06eaba-74722d776562/https/www.geeksforgeeks.org/what-is-a-css-framework/">What is a CSS framework?</a>
+                                </li>
+                                <li class="list-group-item">
+                                    <a href="https://ru.wikipedia.org/wiki/CSS-%D1%84%D1%80%D0%B5%D0%B9%D0%BC%D0%B2%D0%BE%D1%80%D0%BA">CSS-фреймворк (Википедия)</a>
+                                </li>
+                                <li class="list-group-item">
+                                    <a href="https://it.vstu.by/courses/economics_of_electronic_business/web_technologies_and_programming/theory/CSS_frameworks/">CSS фреймворки</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="clear"></div>
+    </div>
+    
+    <footer class="bd-footer text-muted">
+        <nav class="navbar navbar-default navbar-inverse " role="contentinfo">
+            <div class="container h6">
+                <p class="text-center">Спроектировано и построено со всей любовью в мире </p>
+                <button class="pf-c-button pf-m-primary back-to-top" id="backToTop">
+                    Вверх
+                </button>
+            </div>
+        </nav>
+    </footer>
+
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/patternfly/4.0.0/patternfly.min.js"></script>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
+   <script>
+        // Показать/скрыть кнопку "Вверх"
+        $(window).scroll(function() {
+            if ($(this).scrollTop() > 100) {
+                $('#backToTop').fadeIn();
+            } else {
+                $('#backToTop').fadeOut();
+            }
+        });
+        // Прокрутка вверх при нажатии на кнопку
+        $('#backToTop').click(function() {
+            $('html, body').animate({scrollTop: 0}, 800);
+            return false;
+        });
+    </script>
+</body>
+</html>
+

@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Фреймворки - PatternFly</title>
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/patternfly/4.0.0-rc.1/css/patternfly.min.css">
+    <!-- <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/patternfly/3.24.0/css/patternfly-additions.min.css"> -->
+    <link rel="stylesheet" href="assets/css/style.css">
+
+</head>
+<body class="cards-pf">
+    
+    <div class="container-fluid">
+        <div class="row">
+            <nav class="navbar navbar-default navbar-inverse" role="navigation">
+                <div class="container">
+                    <div class="navbar-header header">
+                        <div class="container">
+                            <div class="row">
+                              <div class="col-lg-12">
+                                <h1><a class="navbar-brand fa-lg" href="index.html">CSS Фреймворки</a></h1>
+                                <!-- <p>кратко..</p> -->
+                              </div>
+                            </div>
+                          </div>
+                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbarCollapse">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        </button>
+                    </div>
+                    <div id="navbarCollapse" class="collapse navbar-collapse navbar-right">
+                        <ul class="nav navbar-nav navbar-primary">
+                        <li>
+                            <a href="index.html">Главная</a>
+                        </li>
+                        <li>
+                            <a href="patternfly.html">PatternFly</a>
+                        </li>
+                        <li class="dropdown active">
+                            <a href="#other-frameworks" class="dropdown-toggle" data-toggle="dropdown"> Другие фреймворки <b class="caret"></b></a>
+                            <ul class="dropdown-menu">
+                                <li>
+                                    <a href="foundation.html">Foundation</a>
+                                </li>
+                                <li class = "active">
+                                    <a href="bulma.html">Bulma</a>
+                                </li>
+                                <li>
+                                    <a href="bootstrap.html">Bootstrap</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="contact.html">О нас</a>
+                        </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </div>
+    
+    <!-- -->
+    <div class="wrapper">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-9 col-lg-push-3">
+                        <div class="row row-cards-pf">
+                            <div class="col-md-3 col-sm-6">
+                                <div class="flex-container">
+                                    <div class="flex-container-img">
+                                        <img src="assets/img/bulma.png" alt="Bulma Logo" class="img-responsive">
+                                    </div>
+                                    <h1>Bulma</h1>
+                                </div>
+                            </div>
+                            <div class="w-100"></div> <!-- Для переноса строки -->
+                        </div>
+                        <hr>
+                        <p>
+                            Bulma – это относительно новый участник битвы CSS-фреймворков, который за короткое время сделал себе имя. Ее привлекательность заключается в строгом подходе, основанном только на CSS (нет компонентов JavaScript), и элегантных настройках по умолчанию, что является тем, с чем многие разработчики с хорошим чувством дизайна сталкиваются при работе с Bootstrap.
+                        </p>
+                        <a href="https://bulma.io/" class="btn btn-info pull-right">Подробнее</a>
+                        <div class="margin-10"></div>
+                        <h2>Почему стоит выбрать Bulma CSS Framework</h2>
+                        <hr>
+                        <p>Есть много причин полюбить Bulma и использовать его для вашего следующего проекта:</p>
+                        <ul>
+                            <li><strong>Довольно популярна:</strong> Ладно, он не популярнее Bootstrap, но он популярнее Foundation. На момент написания статьи у Bulma 30k+ звезд на Github, что примерно на 3k+ больше, чем у Foundations. Конечно, количество звезд на Github не является показателем достоинств, но это говорит о том, что сообщество одобряет Bulma.</li>
+                            <li><strong>Очень удобные для чтения классы:</strong> Для меня Bulma имеет самые читаемые CSS-классы из всех фреймворков, которые я пробовал. Кроме того, здесь есть до смешного мощная и простая система для создания сеток в стиле Metro, называемых плитками (просто посмотрите на код во второй половине скриншота и скажите мне, что вы не впечатлены!)</li>
+                            <li><strong>Плоская кривая обучения:</strong> Bulma имеет высокую модульность и была создана для решения практических, повседневных проблем, с которыми сталкиваются небольшие команды и отдельные разработчики. Вы обнаружите, что Bulma очень проста в освоении, хотя я думаю, что приличный опыт в CSS всегда полезен, чтобы иметь представление о том, что может происходить под капотом. Это поможет вам, когда вы захотите отменить поведение по умолчанию.</li>
+                            <li><strong>Элегантность:</strong> Взгляните на стандартную секцию Hero для Бульмы ниже. Достаточно сказано!</li>
+                        </ul>
+                        <div class="margin-5"></div>
+                        <p>У Bulma небольшое, но очень увлеченное сообщество, поэтому если вы хотите избавиться от всех пустяков и при этом создавать элегантные пользовательские интерфейсы в рекордно короткие сроки, Bulma – это то, что вам нужно. Для разработчиков Bootstrap в Bulma есть отдельный раздел, чтобы убедить и помочь им перейти на него.</p>
+                        <div class="margin-5"></div>
+                        <nav aria-label="Пагинация">
+                            <ul class="pagination">
+                                <li class="page-item">
+                                    <a class="page-link" href="foundation.html" aria-label="Предыдущая">
+                                        <span aria-hidden="true">&laquo;</span>
+                                    </a>
+                                </li>
+                                <li class="page-item" aria-current="page">
+                                    <a class="page-link" href="index.html">1</a>
+                                </li>
+                                <li class="page-item">
+                                    <a class="page-link" href="patternfly.html">2</a>
+                                </li>
+                                <li class="page-item">
+                                    <a class="page-link" href="foundation.html">3</a>
+                                </li>
+                                <li class="page-item  active">
+                                    <a class="page-link" href="bulma.html">4</a>
+                                </li>
+                                <li class="page-item">
+                                    <a class="page-link" href="bootstrap.html">5</a>
+                                </li>
+                                <li class="page-item">
+                                    <a class="page-link" href="contact.html">6</a>
+                                </li>
+                                <li class="page-item">
+                                    <a class="page-link" href="bootstrap.html" aria-label="Следующая">
+                                        <span aria-hidden="true">&raquo;</span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </nav>
+                </div>
+                
+                <div class="col-lg-3 col-lg-pull-9">           
+                    <div class="panel panel-info">
+                        <div class="panel-heading">
+                            <div class="sidebar-header">Новости</div>
+                        </div>
+                        <div class="panel-body">
+                            <p>31.02.2025</p>
+                            <p>Мы все же что-то сделали</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-lg-3 col-lg-pull-9">           
+                    <div class="panel panel-info">
+                        <div class="panel-heading">
+                            <div class="sidebar-header">Ссылки на информацию о CSS</div>
+                        </div>
+                        <div class="panel-body">
+                            <ul class="list-group">
+                                <li class="list-group-item">
+                                    <a href="https://translated.turbopages.org/proxy_u/en-ru.ru.27338461-67bf49f0-9d06eaba-74722d776562/https/www.geeksforgeeks.org/what-is-a-css-framework/">What is a CSS framework?</a>
+                                </li>
+                                <li class="list-group-item">
+                                    <a href="https://ru.wikipedia.org/wiki/CSS-%D1%84%D1%80%D0%B5%D0%B9%D0%BC%D0%B2%D0%BE%D1%80%D0%BA">CSS-фреймворк (Википедия)</a>
+                                </li>
+                                <li class="list-group-item">
+                                    <a href="https://it.vstu.by/courses/economics_of_electronic_business/web_technologies_and_programming/theory/CSS_frameworks/">CSS фреймворки</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="clear"></div>
+    </div>
+    
+    <footer class="bd-footer text-muted">
+        <nav class="navbar navbar-default navbar-inverse " role="contentinfo">
+            <div class="container h6">
+                <p class="text-center">Спроектировано и построено со всей любовью в мире </p>
+                <button class="pf-c-button pf-m-primary back-to-top" id="backToTop">
+                    Вверх
+                </button>
+            </div>
+        </nav>
+    </footer>
+
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/patternfly/4.0.0/patternfly.min.js"></script>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
+   <script>
+        // Показать/скрыть кнопку "Вверх"
+        $(window).scroll(function() {
+            if ($(this).scrollTop() > 100) {
+                $('#backToTop').fadeIn();
+            } else {
+                $('#backToTop').fadeOut();
+            }
+        });
+        // Прокрутка вверх при нажатии на кнопку
+        $('#backToTop').click(function() {
+            $('html, body').animate({scrollTop: 0}, 800);
+            return false;
+        });
+    </script>
+</body>
+</html>
+
